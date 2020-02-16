@@ -66,4 +66,13 @@ h4{
 #img-title{
     block-size: 80%;
     padding: 30px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+#tribute-info{
+    margin: 15% 15%;
+    text-align: left;
+}
+#list{
+    margin: 5% 10% 0 10%;
 }
