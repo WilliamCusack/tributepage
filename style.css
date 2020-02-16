@@ -28,3 +28,42 @@ h4{
     background-color: rgb(246, 5, 5);
     margin: 0 auto;
 }
+#background-grids{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "leftbackground centerbackground rightbackground";
+
+}
+#left-background{
+    background: linear-gradient(45deg, black, black, grey, grey);
+    grid-area: leftbackground;
+    position: fixed;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    
+    
+}
+#right-background{
+    background: linear-gradient(45deg, black, black, grey, grey);
+    grid-area: rightbackground;
+    position: fixed;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    
+}
+#center-grid{
+    background-color: gray;
+    grid-area: centerbackground;
+}
+#img-title{
+    block-size: 80%;
+    padding: 30px 30px;
+}
