@@ -22,11 +22,10 @@ h4{
     background-color: bisque;
 }
 #image{
-    display: flex;
-    height: 600px;
-    width: 600px;
+    
     background-color: rgb(246, 5, 5);
     margin: 0 auto;
+    
 }
 #background-grids{
     display: grid;
@@ -70,9 +69,17 @@ h4{
     text-align: center;
 }
 #tribute-info{
-    margin: 15% 15%;
+    margin: 4% 15%;
     text-align: left;
 }
 #list{
     margin: 5% 10% 0 10%;
+}
+#img-caption{
+    display: table-caption;
+    caption-side: bottom;
+}
+#figure{
+    display: table;
+    margin: 0 auto;
 }
